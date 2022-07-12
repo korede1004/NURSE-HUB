@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+@media screen and (min-width:770px){
+  .wrapper{
+    display: flex;
+  }  
+}
+.leftwrapper{
+    background-color:#fff;
+    width: 100%;
+    padding: 20px 20px;
+    
+}
+
+/*NurseHub icon styling start*/
+.ic{
+    display: flex;
+}
+.deepblue{
+    background-color:  #0505ff;
+    width: 29px;
+    height:29px;
+    border-radius:4px
+}
+.lightblue{
+    background-color: #70a9ff;
+    width: 20px;
+    height:20px;
+    border-radius:3px;
+    margin-top:5px;
+    margin-left: -7px;
+    margin-right: 5px;
+}
+.hubtext{
+    margin-top: 7px;
+}
+/*NurseHub icon ends*/
+
+
+/* BEGINING OF INDEX.HTML */
+/* GET STARTED REGISTERED NURSES AROUND YOU STYLING STARTS */
+.accountcontainer{
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 80%;
+}
+.get{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+@media screen and (min-width:768px){
+    .get{
+        font-size:35px;
+        margin-bottom: 90px;
+    }
+}
+@media screen and (min-width:1024px){
+    .get{
+        font-size:25px;
+    }
+}
+@media screen and (min-width:1040px){
+    .get{
+        font-size:40px;
+    }
+}
+.button a{
+    text-decoration: none;
+}
+.button {
+    font-size: 15px;
+    font-weight: 700;
+    color: #5455555d;
+    border: 1px solid #9a9c9c5d;
+    width: 100%;
+    padding: 20px 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+@media screen and (min-width:770px){
+    .button {
+        font-size: 30px;
+        padding: 20px 40px;
+        text-align: center;
+        background-color: #fff;
+    }   
+}
+@media screen and (min-width:1024px){
+    .button{
+        font-size:25px;
+    }
+}
+.signinbutton input:hover{
+    background-color:  #0505ff;
+    color: #fff;
+}
+.signupbutton input:hover{
+    background-color:  #0505ff;
+    color: #fff;
+}
+
+/* FONTAWESOME ? styling */
+.fa-circle-question{
+    color: #0505ff;
+    margin-left: 80%;
+    margin-top: -9%; 
+    position: absolute;
+}
+@media screen and (min-width:770px){
+    .fa-circle-question{
+        position: absolute;
+        margin-left: 43%;
+        margin-top: 1%; 
+    }
+}
+/* GET STARTED REGISTERED NURSES AROUND YOU STYLING STOPS */
+.rightwrapper{
+    width: 100%;
+    background-color: #C19A6B;
+    text-align: center;
+    padding:20px 20px 10px 20px;
+}
+
+/* END OF INDEX .HTML */
+
+
+
+/* BEGINNING OF LOGIN PAGE AND SIGN UP STYLING */
+
+/* LOGIN TEXT STYLING */
+.text{
+    font-size: 15px;
+    color: #0505ff;
+}
+@media screen and (min-width:768px){
+    .text{
+        font-size: 25px;
+        color: #0505ff;
+    }
+}
+  /* HORIZONTAL LINE STYLING FOR LOGIN AND SIGNUP PAGE */
+.hrs{
+    display: flex;
+}
+.hr hr{
+    width: 139px;
+    height: 5px;
+    margin-right: -5px;
+    background-color: #0505ff;
+}
+@media screen and (min-width:768px){
+    .hr hr{
+        width: 280px;
+        height: 5px;
+        margin-right: -5px;
+        background-color: #0505ff;
+    }
+}
+@media screen and (min-width:768px){
+    .hr hr{
+        width: 200px;
+    }
+}
+@media screen and (min-width:1440px){
+    .hr hr{
+        width: 270px;
+    }
+}
+.hrr hr{
+    width: 134px;
+    height: 5px;
+    background-color: beige;
+}
+
+@media screen and (min-width:768px){
+    .hrr hr{
+        width: 300px;
+        height: 5px;
+        background-color: beige;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    .hrr hr{
+        width: 180px;
+        height: 5px;
+        background-color: beige;
+    }
+}
+@media screen and (min-width:1440px){
+    .hrr hr{
+        width: 275px;
+    }
+}
+
+/* FORGET PASSWORD TEXT STYING */
+.forget p{
+    display: flex;
+    justify-content: end;
+}
+.forget p a{
+    margin-left: 5px;
+}
+@media screen and (max-width:768px){
+    /* FORGET PASSWORD TEXT RESPONSIVE STYING */
+.forget p{
+    font-size: 14px;
+}
+/* REMEMBER ACCOUNT TEXT RESPONSIVE STYLING */
+.remem{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 14px
+}
+}
+
+/* REMEMBER ACCOUNT AND CHECKBOX STYLING */
+.rememberacc{
+    display: flex;
+    justify-content:flex-start;
+}
+/* check box styling for login page*/
+.checkbox{
+    margin-top: -29px;
+    border: none;
+}
+.checkbox input{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (min-width:768px){
+    .checkbox input{
+        width: 20px;
+        height: 20px;
+    }
+}
+.remem{
+    margin-top: .8%;
+    margin-left: 5px;
+}
+/*NURSEHUB ICON STYLING FOR LOGIN AND SIGNUP PAGE */
+div .ic{
+    justify-content:end ;
+}
+/* LOGIN PAGE STYLING */
+.logincontainer{
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 80%;
+}
+input{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #5455555d;
+    border: 1px solid #9a9c9c5d;
+}
+/* LOGIN and SIGNUP BUTON STYLING */
+.buttons{
+    margin-top: 50px;
+}
+@media screen and (max-width:425px){
+   .loginbutton{
+        margin-top: 10px;
+   } 
+}
+.buttons input:hover{
+    background-color:#0505ff;
+    color:#fff;
+}
+/* STYLING FOR DONTHAVE AN ACCOUNT TEXT FOR LOGIN AND SIGNUP PAGE */
+.donthaveaccount{
+    text-align: center;
+}
+
+.donthaveaccount p{
+    color:#2525255d;
+    font-weight: 500;
+}
+
+.donthaveaccount a{
+    color: #0505ff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* recaptha styling for login page */
+
+.recaptha{
+    display: flex;
+    width: 70%;
+}
+.recapthaword{
+border: none;
+color: #0505ff;
+font-weight: 700;
+}
+/* STYLING FOR CREATE AN ACCOUNT TEXT FOR SIGNUP PAGE  */
+.buttoncreateacc{
+    margin-top: 0;
+}
+/* TERMS AND CONDITIONS STYLING FOR SIGNUPO PAGE  */
+.terms{
+    font-size: 11px;
+    color:#2525255d;
+    margin-top: 20%;
+}
+
+/*  END OF LOGIN AND SIGN UP PAGE STYLING */
+
+
+/* BEGININNG OF LANDING PAGE STYLING*/
